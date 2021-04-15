@@ -1,0 +1,68 @@
+# Site settings
+title: "Markus Benninghoff CV"
+description: "Markus Benninghoff - Coastal Geoscientist, GIS Analyst and Consultant"
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Markus Benninghoff"
+resume_title:                   "Coastal Geoscientist, GIS Analyst and Consultant"
+
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "m.benninghoff+cv@posteo.ee"
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       "5356 4610"
+resume_contact_address:         "Põhja-Tallinn, Estonia"
+
+resume_header_contact_info:     "Põhja-Tallinn, Estonia • 5356 4610 • m.benninghoff+cv@posteo.ee"
+display_header_contact_info:    "false"
+
+resume_header_intro: "<p>Thank you for your interest in my resume. I am a Geoscientist (M.Sc.) with focus on Coastal Dynamics, and a passionate GIS Analyst and Consultant. I have more than 10 years of experience in spatial data analysis within geographic information systems, utilizing different scripting languages.</p>"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+# resume_looking_for_work:        "yes"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:        true
+resume_section_education:         true
+resume_section_projects_science:  true
+resume_section_projects_industry: true
+resume_section_skills_soft:       true
+resume_section_skills_tech:       true
+resume_section_skills_special:    true
+resume_section_publications:      true
+resume_section_conferences:       true
+resume_section_associations:      true
+resume_section_teaching:          true
+resume_section_interests:         true
+resume_section_links:             true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url:            "https://github.com/MBennGit"
+  resume_twitter_url:           "http://twitter.com/gids_m"
+  # resume_dribbble_url:          "https://dribbble.com/jag"
+  # resume_facebook_url:          "insert Facebook URL here"
+  resume_linkedin_url:          "https://www.linkedin.com/in/markus_benninghoff"
+  # resume_instagram_url:         "insert your Instagram URL here"
+  resume_website_url:           "http://mbenngit.github.io"
+  # resume_medium_url:            "https://medium.com/@jglovier"
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts

@@ -1,0 +1,63 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+
+# AIS
+- project: AIS real-time tracking and analytics
+  role: Solution Engineer, Developer, Analyst
+  duration: 2019 &mdash; Present
+  url: "gis.vta.ee/nutimeri"
+  description: In production. Integrated real time data streams into the Smartsea application. Real time filtering, data reduction of AIS streams with Python. Utilizing ArcGIS GeoEvent server (Kafka/Zookeeper/Spark) for further processing and incident detection. ArcGIS spatio-temporal big data store (Elasticsearch) for storing data. Big data (1e09 datasets) filtering.
+
+# Busses
+- project: Bus real-time tracking and analytics
+  role: Solution Engineer, Developer, Analyst
+  duration: 2020 &mdash; Present
+  # url: "#"
+  description: Integrating GTFS-RT streams into ArcGIS GeoEvent, utilizing Python and FastAPI. Incident detection, Big Data Storage and Historical analysis. Dashboards to keep track of Operations.
+
+# Corona Dashboard
+- project: Visualisation of COVID-19 situation in Estonia
+  role: Data Scientist
+  duration: 2020
+  url: "https://www.arcgis.com/apps/opsdashboard/index.html#/9213122b42fd47b9bf60320a43c290a6"
+  description: Daily routine, requesting data from the Estonian Health Board. Utilizing Pandas to calculate rolling statistic. Workflows published as open accessible Notebooks.
+
+# Travel restrictions
+- project: Visualisation of Travel restrictions in Estonia
+  role: Data Scientist
+  duration: 2020 (outdated)
+  url: "https://covid-19-ag.hub.arcgis.com/app/aba42d1bb8444472ae3a44eae92125e5"
+  description: Weekly routine, web-scraping data from the Foreign Ministries website. Workflows published as open accessible Notebooks.
+
+# Insights
+- project: Location analytics for COVID-19
+  role: Data Scientist
+  duration: 2020 (outdated)
+  url: "https://insights.arcgis.com/#/view/9bd105c2a4a14708815a4e20554c5769"
+  description: Technical demo for presentation. Visualisation of Covid-19 data for in an interactive workbook, using drag and drop spatial analytics and business intelligence solution ArcGIS Insights.
+
+# Utility Networks
+- project: Utility Network processing and control tools
+  role: Developer
+  duration: 2019 &mdash; Present
+  description: Optimization and integration of daily occuring processing steps with Python. Advanced testing and quality control.
+
+# Environmental data
+- project: Environmental Polution Spatial Analytics
+  role: Data Scientist, Developer
+  duration: 2020 &mdash; Present
+  description: Optimization and integration of occuring processing steps with Python. Advanced testing and quality control.
+
+# Indoor GIS
+- project: Indoor GIS
+  role: Consultant, Analyst
+  duration: 2020 &mdash; Present
+  # url: "#"
+  description: Developing and demonstrating customer oriented technical demonstrations, utilizing indoor positioning systems, IoT-devices, floor-aware routing networks. Technical demos presented during two user conferences.
+
+# Geocoding
+- project: Geocoding Data
+  role: Developer, Analyst
+  duration: 2019
+  # url: "#"
+  description: Cleaning, processing and geocoding thousands of adress data sets for multiple countries, utilizing NLP methods in Python.
